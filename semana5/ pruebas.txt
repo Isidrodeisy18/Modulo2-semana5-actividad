@@ -1,8 +1,14 @@
-http://localhost:3000
+http://localhost:3000/reporte
+{
+  "mensaje": "Reporte de prueba"
+}
 Servidor funcionando correctamente
+La ruta muestra la página principal o el mensaje inicial del servidor.
 
 http://localhost:3000/saludo
 Cannot GET /saludo
+Esta ruta muestra un saludo definido por la aplicación.
 
 http://localhost:3000/mensaje/juan
 Cannot GET /mensaje/juan
+La ruta muestra un mensaje personalizado utilizando el nombre “juan” como parámetro.
