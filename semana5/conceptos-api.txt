@@ -4,6 +4,12 @@ Cuando recibe datos, extrae el texto que viene dentro de 'req.body.mensaje'
 y responde al cliente con un objeto JSON que confirma la recepción del 
 mensaje devolviendo el estado "Reporte recibido" junto con el texto enviado.
 
+Ejemplo: La ruta POST se probó desde Thunder Client
+{
+  "estado": "Reporte recibido",
+  "mensaje": "Reporte de prueba"
+}
+
 2. ¿Para qué podría servir en una aplicación comunitaria?
 Podría servir para que los vecinos reporten problemas en el barrio, como un bache 
 en la calle, fallas en el alumbrado público o acumulación de basura en un sector 
